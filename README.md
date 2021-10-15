@@ -38,7 +38,7 @@ And since the reason people keep skipping software updates is because it wants t
 
 ### Make Me An Admin
 
-<img src="images/kelly-makemeadminselfservice.jpg" style="float: right; height: 200px" />
+<img src="images/kelly-makemeadminselfservice.jpg" height="200px" align="right" />
 The year that Andrina gave this talk presenting her solution for granting admin rights on a *temporary* basis and automatically taking it back, I was working at a manufacturing company with this exact need. It was the perfect solution at the perfect time.
 
 Over the years, I've implemented a version of this for almost every client I've ever had. Yes. The need is *that* ubiquitous.
@@ -98,7 +98,7 @@ But in a virtual setting? Even though the intro had included a series of slides 
 
 There had to be a better way!
 
-<img src="images/sokol-borchardt-webhook.jpg" style="height: 200px; float: right; padding: 10px" />
+<img src="images/sokol-borchardt-webhook.jpg" height="200px" align="right" />
 
 I ended up (subconsciously, perhaps) following Arek's advice on stepping back and thinking about the who and the why to guide your tool selection. I decided to leverage [Jamf's webhooks](https://www.jamf.com/resources/videos/an-introduction-to-webhooks) and a few external tools:
 
@@ -109,7 +109,7 @@ I ended up (subconsciously, perhaps) following Arek's advice on stepping back an
 
 Now whenever a computer finished a policy in the workflow , it would send a webhook to my Integromat scenario which would check the policy ID and, if it was on the list of onboarding policies, create or update a record in Airtable indicating the current step of the workflow they were at with the time, and send a message to me in Slack.
 
-<img src="images/sokol-borchardt-integromat-workshoptracker.jpg" style="height: 200px; float: right; padding: 10px" />
+<img src="images/sokol-borchardt-integromat-workshoptracker.jpg" height="200px" align="right" />
 
 So at the remaining workshops I was able to keep an Airtable window open to see the total "scoreboard" and Slack became my own personal announcer. I was able to say things like,
 
@@ -171,7 +171,7 @@ I really liked Bill's suggestion of creating smart groups to indicate the way th
 
 For example, a smart group might be called "Has Google Chrome" and a policy that deploys Google Chrome would be scoped to all computers *excluding* the ones that have it.
 
-<img src="images/talkingmoose-lookfortrouble.jpg" style="height: 200px; padding: 10px; float: right;" />
+<img src="images/talkingmoose-lookfortrouble.jpg" height="200px" align="right" />
 But here's where I have a different opinion. ...and I'm prepared to back it up.
 
 Don't get me wrong. I like the philosophy of choosing to [*always look on the bright side of life*](https://en.wikipedia.org/wiki/Always_Look_on_the_Bright_Side_of_Life), but what if I flip it instead. What if I have a smart group called "M: Needs FileVault" and I pin it to my dashboard? And maybe a few other smart groups looking for trouble?
