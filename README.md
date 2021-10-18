@@ -77,7 +77,7 @@ Arek provided the following list of tools for developing a GUI interface:
 
 * **AppleScript**
 * **jamfHelper**
-* ~~~cocoaDialog~~~ *(no longer maintained)*
+* cocoaDialog *(no longer maintained)*
 * [terminal-notifier](https://github.com/julienXX/terminal-notifier)
 * *Xcode*
 * *Python*
