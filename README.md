@@ -75,12 +75,12 @@ As such I try to keep a number of tools in the box, as it were.
 
 Arek provided the following list of tools for developing a GUI interface:
 
-* **AppleScript**
-* **jamfHelper**
-* cocoaDialog *(no longer maintained)*
-* [terminal-notifier](https://github.com/julienXX/terminal-notifier)
-* *Xcode*
-* *Python*
+- **AppleScript**
+- **jamfHelper**
+- cocoaDialog *(no longer maintained)*
+- [terminal-notifier](https://github.com/julienXX/terminal-notifier)
+- *Xcode*
+- *Python*
 
 Sadly, cocoaDialog is gone. Xcode not only has a higher learning curve, but then you have to distribute the files. And I find the builtin GUI libraries for Python annoying and to use better ones requires either distributing those libraries or ["freezing your code"](https://docs.python-guide.org/shipping/freezing/) and distributing the file(s).
 
